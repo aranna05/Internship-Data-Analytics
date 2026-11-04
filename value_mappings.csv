@@ -1,0 +1,248 @@
+variable,kind,from,to
+gender,raw -> clean,Male,Man
+gender,raw -> clean,Man,Man
+gender,raw -> clean,Female,Woman
+gender,raw -> clean,Woman,Woman
+gender,raw -> clean,Nonbinary,Non-binary / self-described
+gender,raw -> clean,"Non-binary, genderqueer, or gender non-conforming",Non-binary / self-described
+gender,raw -> clean,Prefer to self-describe,Non-binary / self-described
+gender,raw -> clean,A different identity,Non-binary / self-described
+gender,raw -> clean,Prefer not to say,Prefer not to say
+country,raw -> clean,United States of America,United States
+country,raw -> clean,Viet Nam,Vietnam
+country,raw -> clean,United Kingdom of Great Britain and Northern Ireland,United Kingdom
+country,raw -> clean,"Iran, Islamic Republic of...",Iran
+country,raw -> clean,Republic of Korea,South Korea
+country,raw -> clean,Hong Kong (S.A.R.),Hong Kong
+country,raw -> clean,People 's Republic of China,China
+country,raw -> clean,Republic of China,Taiwan
+country,raw -> clean,I do not wish to disclose my location,Undisclosed
+education,raw -> clean,Some college/university study without earning a bachelor's degree,Some college
+education,raw -> clean,No formal education past high school,High school
+education,raw -> clean,I did not complete any formal education past high school,High school
+education,raw -> clean,Bachelor's degree,Bachelor's
+education,raw -> clean,Master's degree,Master's
+education,raw -> clean,Doctoral degree,Doctorate
+education,raw -> clean,Professional doctorate,Professional degree
+education,raw -> clean,I prefer not to answer,Prefer not to answer
+role,raw -> clean,Currently not employed,Unemployed
+role,raw -> clean,Not employed,Unemployed
+role,raw -> clean,Product Manager,Product/Project Manager
+role,raw -> clean,Program/Project Manager,Product/Project Manager
+role,raw -> clean,Software Developer/Software Engineer,Software Engineer
+role,raw -> clean,Scientist/Researcher,Research Scientist
+role,raw -> clean,Researcher,Research Scientist
+role,raw -> clean,Developer Advocate,Developer Relations/Advocacy
+coding_exp,raw -> clean,< 1 years,< 1 year
+coding_exp,raw -> clean,Less than a year,< 1 year
+coding_exp,raw -> clean,1-2 years,1-3 years
+coding_exp,raw -> clean,1 to 2 years,1-3 years
+coding_exp,raw -> clean,3 to 5 years,3-5 years
+coding_exp,raw -> clean,6 to 10 years,5-10 years
+coding_exp,raw -> clean,More than 10 years,10+ years
+coding_exp,raw -> clean,10-20 years,10+ years
+coding_exp,raw -> clean,20+ years,10+ years
+coding_exp,raw -> clean,20-30 years,10+ years
+coding_exp,raw -> clean,30-40 years,10+ years
+coding_exp,raw -> clean,40+ years,10+ years
+coding_exp,raw -> clean,I have never written code,Never
+coding_exp,raw -> clean,I have never written code and I do not want to learn,Never
+coding_exp,raw -> clean,I have never written code but I want to learn,Never
+coding_exp,raw -> clean,I don't write code to analyze data,Never
+industry,raw -> clean,I am a student,Student
+industry,raw -> clean,Computers/Technology,Technology
+industry,raw -> clean,Academics/Education,Academics
+industry,raw -> clean,Accounting/Finance,Finance
+industry,raw -> clean,Manufacturing/Fabrication,Manufacturing
+industry,raw -> clean,Medical/Pharmaceutical,Medical
+industry,raw -> clean,Government/Public Service,Government
+industry,raw -> clean,Energy/Mining,Energy
+industry,raw -> clean,Online Service/Internet-based Services,Internet business
+industry,raw -> clean,Online Business/Internet-based Sales,Internet business
+industry,raw -> clean,Retail/Sales,Retail
+industry,raw -> clean,Insurance/Risk Assessment,Insurance
+industry,raw -> clean,Marketing/CRM,Marketing
+industry,raw -> clean,Broadcasting/Communications,Communications
+industry,raw -> clean,Shipping/Transportation,Shipping
+industry,raw -> clean,Non-profit/Service,Non-profit
+industry,raw -> clean,Military/Security/Defense,Security/Defense
+industry,raw -> clean,Hospitality/Entertainment/Sports,Entertainment
+company_size,raw -> clean,0-49 employees,0-49
+company_size,raw -> clean,50-249 employees,50-249
+company_size,raw -> clean,250-999 employees,250-999
+company_size,raw -> clean,"1000-9,999 employees","1,000-9,999"
+company_size,raw -> clean,"10,000 or more employees","10,000+"
+company_size,raw -> clean,"> 10,000 employees","10,000+"
+ml_adopt,raw -> clean,No (we do not use ML methods),No ML
+ml_adopt,raw -> clean,We are exploring ML methods (and may one day put a model into production),Exploring ML
+ml_adopt,raw -> clean,We use ML methods for generating insights (but do not put working models into production),Insights only
+ml_adopt,raw -> clean,"We recently started using ML methods (i.e., models in production for less than 2 years)",In production < 2 yrs
+ml_adopt,raw -> clean,"We have well established ML methods (i.e., models in production for more than 2 years)",In production 2+ yrs
+ml_adopt,raw -> clean,I do not know,Don't know
+education,ordinal level,High school,1
+education,ordinal level,Some college,2
+education,ordinal level,Bachelor's,3
+education,ordinal level,Master's,4
+education,ordinal level,Professional degree,5
+education,ordinal level,Doctorate,6
+coding_exp,ordinal level,Never,0
+coding_exp,ordinal level,< 1 year,1
+coding_exp,ordinal level,1-3 years,2
+coding_exp,ordinal level,3-5 years,3
+coding_exp,ordinal level,5-10 years,4
+coding_exp,ordinal level,10+ years,5
+company_size,ordinal level,0-49,1
+company_size,ordinal level,50-249,2
+company_size,ordinal level,250-999,3
+company_size,ordinal level,"1,000-9,999",4
+company_size,ordinal level,"10,000+",5
+ml_adopt,ordinal level,No ML,0
+ml_adopt,ordinal level,Exploring ML,1
+ml_adopt,ordinal level,Insights only,2
+ml_adopt,ordinal level,In production < 2 yrs,3
+ml_adopt,ordinal level,In production 2+ yrs,4
+salary_band,ordinal level,< $10k,1
+salary_band,ordinal level,$10-25k,2
+salary_band,ordinal level,$25-50k,3
+salary_band,ordinal level,$50-100k,4
+salary_band,ordinal level,$100k+,5
+age_band,ordinal level,18-21,1
+age_band,ordinal level,22-24,2
+age_band,ordinal level,25-29,3
+age_band,ordinal level,30-34,4
+age_band,ordinal level,35-39,5
+age_band,ordinal level,40-44,6
+age_band,ordinal level,45-49,7
+age_band,ordinal level,50-54,8
+age_band,ordinal level,55-59,9
+age_band,ordinal level,60-69,10
+age_band,ordinal level,70+,11
+gender,label code,Man,0
+gender,label code,Non-binary / self-described,1
+gender,label code,Not answered,2
+gender,label code,Prefer not to say,3
+gender,label code,Woman,4
+country,label code,Algeria,0
+country,label code,Argentina,1
+country,label code,Australia,2
+country,label code,Austria,3
+country,label code,Bangladesh,4
+country,label code,Belarus,5
+country,label code,Belgium,6
+country,label code,Brazil,7
+country,label code,Canada,8
+country,label code,Chile,9
+country,label code,China,10
+country,label code,Colombia,11
+country,label code,Czech Republic,12
+country,label code,Denmark,13
+country,label code,Ecuador,14
+country,label code,Egypt,15
+country,label code,Ethiopia,16
+country,label code,Finland,17
+country,label code,France,18
+country,label code,Germany,19
+country,label code,Ghana,20
+country,label code,Greece,21
+country,label code,Hong Kong,22
+country,label code,Hungary,23
+country,label code,India,24
+country,label code,Indonesia,25
+country,label code,Iran,26
+country,label code,Iraq,27
+country,label code,Ireland,28
+country,label code,Israel,29
+country,label code,Italy,30
+country,label code,Japan,31
+country,label code,Kazakhstan,32
+country,label code,Kenya,33
+country,label code,Malaysia,34
+country,label code,Mexico,35
+country,label code,Morocco,36
+country,label code,Nepal,37
+country,label code,Netherlands,38
+country,label code,New Zealand,39
+country,label code,Nigeria,40
+country,label code,Norway,41
+country,label code,Not answered,42
+country,label code,Other,43
+country,label code,Pakistan,44
+country,label code,Peru,45
+country,label code,Philippines,46
+country,label code,Poland,47
+country,label code,Portugal,48
+country,label code,Romania,49
+country,label code,Russia,50
+country,label code,Saudi Arabia,51
+country,label code,Singapore,52
+country,label code,South Africa,53
+country,label code,South Korea,54
+country,label code,Spain,55
+country,label code,Sri Lanka,56
+country,label code,Sweden,57
+country,label code,Switzerland,58
+country,label code,Taiwan,59
+country,label code,Thailand,60
+country,label code,Tunisia,61
+country,label code,Turkey,62
+country,label code,Uganda,63
+country,label code,Ukraine,64
+country,label code,Undisclosed,65
+country,label code,United Arab Emirates,66
+country,label code,United Kingdom,67
+country,label code,United States,68
+country,label code,Vietnam,69
+role,label code,Business Analyst,0
+role,label code,Chief Officer,1
+role,label code,Computer Scientist,2
+role,label code,Consultant,3
+role,label code,DBA/Database Engineer,4
+role,label code,Data Analyst,5
+role,label code,Data Engineer,6
+role,label code,Data Journalist,7
+role,label code,Data Miner,8
+role,label code,Data Scientist,9
+role,label code,Developer Relations/Advocacy,10
+role,label code,Engineer,11
+role,label code,Machine Learning Engineer,12
+role,label code,Manager,13
+role,label code,Marketing Analyst,14
+role,label code,Not answered,15
+role,label code,Operations Research Practitioner,16
+role,label code,Other,17
+role,label code,Predictive Modeler,18
+role,label code,Principal Investigator,19
+role,label code,Product/Project Manager,20
+role,label code,Programmer,21
+role,label code,Research Assistant,22
+role,label code,Research Scientist,23
+role,label code,Salesperson,24
+role,label code,Software Engineer,25
+role,label code,Statistician,26
+role,label code,Student,27
+role,label code,Unemployed,28
+industry,label code,Academics,0
+industry,label code,Communications,1
+industry,label code,Energy,2
+industry,label code,Entertainment,3
+industry,label code,Finance,4
+industry,label code,Government,5
+industry,label code,Insurance,6
+industry,label code,Internet business,7
+industry,label code,Manufacturing,8
+industry,label code,Marketing,9
+industry,label code,Medical,10
+industry,label code,Non-profit,11
+industry,label code,Not answered,12
+industry,label code,Not asked,13
+industry,label code,Other,14
+industry,label code,Retail,15
+industry,label code,Security/Defense,16
+industry,label code,Shipping,17
+industry,label code,Student,18
+industry,label code,Technology,19
+generation,label code,Baby Boomer,0
+generation,label code,Gen X,1
+generation,label code,Gen Z,2
+generation,label code,Millennial,3
+generation,label code,Not answered,4
