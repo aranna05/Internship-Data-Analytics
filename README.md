@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Data%20Analytics%20Internship&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Elevvo%20Pathways%20%E2%80%A2%20Hands-on%20Projects%20%26%20Insights&descSize=18&descAlignY=60" width="100%" alt="banner"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Data%20Analytics%20Internship&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Elevvo%20Pathways%20%E2%80%A2%20Hands-on%20Projects%20and%20Insights&descSize=18&descAlignY=60" width="100%" alt="banner"/>
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Cleaning+messy+data+into+clean+insights;Forecasting+sales+with+real-world+datasets;A%2FB+Testing+to+drive+smarter+decisions;Building+dashboards+that+tell+a+story" alt="Typing SVG" />
 </a>
